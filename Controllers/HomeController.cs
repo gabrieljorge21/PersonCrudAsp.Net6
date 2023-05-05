@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PersonCrud.Models;
+using PersonCrud_Model.Models;
 using System.Diagnostics;
 
-namespace PersonCrud.Controllers
+namespace PersonCrud_Model.Controllers
 {
     public class HomeController : Controller
     {

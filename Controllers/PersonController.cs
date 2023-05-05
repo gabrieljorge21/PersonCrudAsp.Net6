@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using PersonCrud.Data;
-using PersonCrud.Models;
+using PersonCrud_Data;
+using PersonCrud_Model.Models;
 
-namespace PersonCrud.Controllers
+namespace PersonCrud_Model.Controllers
 {
     public class PersonController : Controller
     {
@@ -39,7 +39,7 @@ namespace PersonCrud.Controllers
         }
 
         // GET: PersonController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit()
         {
             return View();
         }
